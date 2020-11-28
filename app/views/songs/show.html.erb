@@ -1,0 +1,9 @@
+a particular songs page: <br>
+
+<h1><%= @song.name %></h1>
+<h1><%= @song.artist_id %></h1>
+<h1><%= @song.genre_id %></h1>
+
+<%= link_to @artist.name, artist_path(@artist.id) %>
+
+<%= link_to @genre.name, genre_path(@genre.id) %>
